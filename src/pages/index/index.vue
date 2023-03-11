@@ -1,52 +1,27 @@
 <template>
-	<view class="content">
-    <div v-for='item in list' @click='go(item.url)'>{{ item.text }}</div>
-	</view>
+  <view class="content">
+    <div v-for="item in list" @click="go(item.url)">{{ item.text }}</div>
+  </view>
 </template>
 
 <script lang="ts">
-  import Vue from 'vue';
-	export default Vue.extend({
-		data() {
-			return {
-				list:[
-					{text:"图片加水印",url:"/pages/waterMarker/index"},
-					{text:"神秘数字",url:"/pages/mysteriousNumber/index"},
-				]
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-			go(url:string){
-				uni.navigateTo({url})
-			}
-		}
-	});
+import Vue from 'vue'
+export default Vue.extend({
+  data() {
+    return {
+      list: [
+        { text: '图片加水印', url: '/pages/waterMarker/index' },
+        { text: '神秘数字', url: '/pages/mysteriousNumber/index' },
+      ],
+    }
+  },
+  onLoad() {},
+  methods: {
+    go(url: string) {
+      uni.navigateTo({ url })
+    },
+  },
+})
 </script>
 
-<style>
-	/* .content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin: 200rpx auto 50rpx auto;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	} */
-</style>
+<style></style>
