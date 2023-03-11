@@ -1,4 +1,4 @@
-# my-project
+# cxx-miniprogram-tools
 
 ## Project setup
 ```
