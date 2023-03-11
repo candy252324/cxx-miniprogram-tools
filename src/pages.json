@@ -5,6 +5,18 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/waterMarker/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/mysteriousNumber/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
 		}
 	],
 	"globalStyle": {
