@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* 默认样式的清除 */
+body,
+ul,
+ol,
+dl,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre {
+  margin: 0;
+}
+
+ul,
+ol,
+input,
+button {
+  padding: 0;
+}
+
+input,
+button,
+textarea {
+  border: 0;
+  font-family: 'San Francisco', 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  font-size: 14px;
+  outline: none;
+}
+
+iframe {
+  border-color: initial;
+  border-style: inset;
+  border-width: 0;
+  border-image: initial;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  text-size-adjust: 100%;
+  height: 100%;
+  background: #f8f9fa;
+}
+
+body {
+  height: 100%;
+  font-family: 'San Francisco', 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 20%);
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background-color: rgba(0, 0, 0, 50%);
+}
